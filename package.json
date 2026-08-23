@@ -2,6 +2,7 @@
   "name": "ayush-backend",
   "version": "1.0.0",
   "description": "a backend project",
+  "type": "module",
   "keywords": [
     "javascript",
     "backend",
@@ -9,9 +10,11 @@
   ],
   "license": "ISC",
   "author": "Ayush rai",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
